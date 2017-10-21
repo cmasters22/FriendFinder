@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Friend Finder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+		<h1 class='text-center'><span class="glyphicon glyphicon-list-alt"></span> Survey Questions</h1>
+		</div>
+		<div class="container">
+			<div class= "panel panel-default">
+			  	<div class="panel-heading"><h4>About You</h4>
+			  	</div>
+					<div class="form-group">
+					    <label for="name">Name (Required)</label>
+					    <input type="text" class="form-control" id="name" placeholder="Enter Name">
+					</div>
+					<div class="form-group">
+					    <label for="name">Link to Photo Image (Required)</label>
+					    <input type="text" class="form-control" id="image" placeholder="Image Link">
+					</div>
+					<br>
+				</div>
+			</div>
+			<div class="container">
+			<div class= "panel panel-default">
+			  	<div class="panel-heading"><h4>Questions</h4> </div>
+			  	<div> 
+			  		
+		  			<ul class="list-group">
+		  				<li class="list-group-item"><h3> Question 1</h3>
+		  					<h5> You find yourself thinking about how good chocolate is. </h5>
+		  					<br>
+						<select data-placeholder="" class= "chosen-select" id="question1">
+ 							<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+	  					</select>
+		  		</div>
+					
+				<div>
+	  				<li class="list-group-item"><h3> Question 2</h3>
+	  					<h5> You would rather spend your time indoors than outdoors. </h5>
+	  					<br>
+				
+					<select data-placeholder="" class= "chosen-select" id="question2">
+ 						<option value=""></option>
+    					<option value="1"> 1 (Strongly disagree)</option>
+    					<option value="2"> 2</option>
+    					<option value="3"> 3</option>
+    					<option value="4"> 4</option>
+    					<option value="5"> 5 (Strongly Agree) </option>
+	  				</select>
+				
+				</div>	
+					
+				<div>
+	  				<li class="list-group-item"><h3> Question 3</h3>
+	  					<h5> You find you like dogs better than cats. </h5>
+	  					<br>
+						<select data-placeholder="" class= "chosen-select" id="question3">
+	 						<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+		  				</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item"><h3> Question 4</h3>
+	  					<h5> You'd raather read a book than watch a movie. </h5>
+	  					<br>
+					<select data-placeholder="" class= "chosen-select" id="question4">
+	 						<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+		  			</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item"><h3> Question 5</h3>
+	  					<h5> People can rarely upset you. </h5>
+	  					<br>
+					<select data-placeholder="" class= "chosen-select" id="question5">
+	 						<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+		  			</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item" id="question6"><h3> Question 6</h3>
+	  					<h5> It is often difficult for you to be motivated about things you don't want to do. </h5>
+	  					<br>
+					<select data-placeholder="" class= "chosen-select" id="question3">
+	 						<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+		  			</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item"><h3> Question 7</h3>
+	  					<h5> In a discussion, you often find yourself reciting random facts. </h5>
+	  					<br>
+					<select data-placeholder="" class= "chosen-select" id="question7">
+	 						<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+		  			</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item"><h3> Question 8</h3>
+	  					<h5> You rarely get carried away by fantasies and ideas. </h5>
+	  					<br>
+					<select data-placeholder="" class= "chosen-select" id="question8">
+ 						<option value=""></option>
+    					<option value="1"> 1 (Strongly disagree)</option>
+    					<option value="2"> 2</option>
+    					<option value="3"> 3</option>
+    					<option value="4"> 4</option>
+    					<option value="5"> 5 (Strongly Agree) </option>
+		  			</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item"><h3> Question 9</h3>
+	  					<h5> You support our founding fathers. </h5>
+	  					<br>
+					<select data-placeholder="" class= "chosen-select" id="question9">
+ 						<option value=""></option>
+    					<option value="1"> 1 (Strongly disagree)</option>
+    					<option value="2"> 2</option>
+    					<option value="3"> 3</option>
+    					<option value="4"> 4</option>
+    					<option value="5"> 5 (Strongly Agree) </option>
+		  			</select>
+				</div>
+
+				<div>
+	  				<li class="list-group-item"><h3> Question 10</h3>
+	  					<h5> You prefer relaxing by the pool rather than a nice hike. </h5>
+	  					<br>
+						<select data-placeholder="" class= "chosen-select" id="question10">
+	 						<option value=""></option>
+	    					<option value="1"> 1 (Strongly disagree)</option>
+	    					<option value="2"> 2</option>
+	    					<option value="3"> 3</option>
+	    					<option value="4"> 4</option>
+	    					<option value="5"> 5 (Strongly Agree) </option>
+			  			</select>
+				</div>
+					
+					</div>
+				<ul>
+			</div>
+			<button type="button" id="submitBtn" class="btn btn-primary btn-sm">Submit</button>
+		</div>
+
+
+		<div id="resultsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 id="matchName"></h2>
+	        <img id="matchImg" src="file:///Users/lisavanorden/Documents/RCB_files/week13_files/wk13_hw/friendfinder/assets/images/floya_avatar_pic.jpg" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+
+
+
+
+		<script>
+			$("#submit").on("click", function(event) {
+			  event.preventDefault();
+			 
+				var user = {
+			    	name: $("#name").val().trim(),
+			    	image: $("#number").val().trim(),
+			  	};
+
+			  	for (i=1; i<11; i++){
+			  		user.scores.push($("#a" +i).val.trim());
+			  	};
+
+			  	console.log(user);
+			  // Question: What does this code do??
+			  $.post("/http:localhost:3000/api/friends", user)
+			  .done(function(data) {
+			    console.log(data);
+			  });
+			});
+		</script>
+</body>
+</html>
